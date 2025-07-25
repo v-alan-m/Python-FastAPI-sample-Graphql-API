@@ -35,13 +35,13 @@ uvicorn main:app --reload --no-use-colors
 ```
 
 ## 🔍 Find the interactive GraphQL swagger page
-###visit the local hosted page
+### Visit the local hosted page
 
 - http://127.0.0.1:8000
-###visit the local GraphQL endpoint:
+### Visit the local GraphQL endpoint:
 - http://127.0.0.1:8000/graphql
 
-## ✅ Test
+## ✅ Test Examples
 ###Create a mutation
 #### Create user Alice:
 - **Input**
@@ -66,7 +66,7 @@ mutation{
   }
 }
 ```
-####Input- Create user Eric:
+#### Create user Eric:
 - **Input**
 ```bash
 mutation{
@@ -89,7 +89,7 @@ mutation{
   }
 }
 ```
-####Input- Create new post for Eric:
+#### Create new post for Eric:
 - **Input**
 ```bash
 mutation{
@@ -112,7 +112,7 @@ mutation{
   }
 }
 ```
-####Input - Get all information about idNum=2 [Eric]:
+#### Get all information about idNum=2 [Eric]:
 - **Input**
 ```bash
 {
@@ -148,7 +148,7 @@ mutation{
   }
 }
 ```
-####Input- Only get name and email for idNum=2 [Eric]:
+#### Only get name and email for idNum=2 [Eric]:
 - **Input**
 ```bash
 {
